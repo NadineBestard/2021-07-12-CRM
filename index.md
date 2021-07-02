@@ -386,10 +386,13 @@ please preview your site before committing, and make sure to run
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
- - For the first two days: access to the UNIX command line. This is already available in Linux and Mac, but windows use a different command line by default, and therefore a bash shell needs to be installed. This can be downloaded with the <a href = "https://gitforwindows.org/">Git for windows installer</a>. Other shells such as MobaXterm, Putty or Windows Subsystem for Linux are also available.
-</p>  
-<p>
- - From the third day we will need an updated version of <a href = "https://cloud.r-project.org/">R</a>, that we will use with the <a href = "https://www.rstudio.com/">Rstudio</a> interface.
+  <ul>
+
+ <li> For the first two days: access to the UNIX command line. This is already available in Linux and Mac, but windows use a different command line by default, and therefore a bash shell needs to be installed. This can be downloaded with the <a href = "https://gitforwindows.org/">Git for windows installer</a>. Other shells such as MobaXterm, Putty or Windows Subsystem for Linux are also available.
+</li>
+  
+ <li>From the third day we will need an updated version of <a href = "https://cloud.r-project.org/">R</a>, that we will use with the <a href = "https://www.rstudio.com/">Rstudio</a> interface.</li>
+    </ul>
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
