@@ -167,7 +167,7 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
+    Participants will be provided with a laptop with all required software installed. They can also choose to bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
@@ -390,7 +390,11 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+<p>
+ - For the first two days: access to the UNIX command line. This is already available in Linux and Mac, but windows use a different command line by default, and therefore a bash shell needs to be installed. This can be downloaded with the [Git for windows installer](https://gitforwindows.org/). Other shells such as MobaXterm, Putty or Windows Subsystem for Linux are also available.
+  
+ - From the third day we will need an updated version of [R](https://cloud.r-project.org/), that we will use with the [Rstudio](https://www.rstudio.com/) interface.
+</p>
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
